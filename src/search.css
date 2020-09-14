@@ -1,0 +1,22 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 35px;
+  left: 25%;
+  /* width: 100vw; */
+  /* background-color: white; */
+  align-items: center;
+}
+
+.search input {
+  /* color: red; */
+  width: 50%;
+}
+
+.searchButton {
+  text-transform: inherit !important;
+  background-color: #ff7779 !important;
+  color: white !important;
+  margin: 10px 0px !important;
+}
