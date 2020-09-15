@@ -31,10 +31,10 @@ function Search() {
         ranges={[selectionRange]}
         onChange={handleSelect}
       />
-      <h2>
-        Number of guests
+      <div className="searchGuestNumber">
+        <h2>Number of guests</h2>
         <PeopleIcon />
-      </h2>
+      </div>
 
       <input className="searchInput" min={0} defaultValue={2} type="number" />
       <Button className="searchButton"> Search Airbnb</Button>
