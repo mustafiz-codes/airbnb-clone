@@ -15,7 +15,7 @@ function Header() {
       />
 
       <div className="header_center">
-        <input type="text" />
+        <input placeholder="Start your search..." type="text" />
         <SearchIcon />
       </div>
 
